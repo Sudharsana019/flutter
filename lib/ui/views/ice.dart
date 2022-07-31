@@ -3,12 +3,17 @@ import 'package:devops_demo/database/dao/services.dart';
 import 'package:devops_demo/resources/texts/strings.dart';
 import 'package:devops_demo/ui/views/detail_page.dart';
 
-class Family extends StatefulWidget {
+
+
+
+
+class ice extends StatefulWidget {
   @override
-  FamilyState createState() => FamilyState();
+  iceState createState() => iceState();
 }
 
-class FamilyState extends State<Family> {
+class
+iceState extends State<ice> {
   late List services;
 
   @override
@@ -26,12 +31,14 @@ class FamilyState extends State<Family> {
             padding: EdgeInsets.only(right: 12.0),
             decoration: new BoxDecoration(
                 border: new Border(
-                    right: new BorderSide(width: 1.0, color: Colors.white))),
-            child: Icon(Icons.auto_awesome, color: Colors.yellow),
+                    right: new BorderSide(width: 1.0, color: Colors.white24))),
+            child: Icon(Icons.auto_awesome, color: Colors.white),
+
+
           ),
           title: Text(
             services.title,
-            style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
 
 
@@ -88,19 +95,23 @@ class FamilyState extends State<Family> {
 List getServices() {
   return [
     Services(
-      title: Strings.TITLE_MMM_MMM_REGISTRATION,
-      indicatorValue: 0.25,
+      title: Strings.TITLE_DPSR_ABOUT_US,
+      indicatorValue: 0.20,
     ),
     Services(
-      title: Strings.TITLE_MMM_VARAN_VADHU_LIST,
-      indicatorValue: 0.50,
+      title: Strings.TITLE_DPSR_CONTACT_US,
+      indicatorValue: 0.40,
     ),
     Services(
-      title: Strings.TITLE_MMM_VIEW_EDIT_DELETE_PROFILE,
-      indicatorValue: 0.75,
+      title: Strings.TITLE_DPSR_OUR_SERVICES,
+      indicatorValue: 0.60,
     ),
     Services(
-      title: Strings.TITLE_MMM_LATEST_NEWS,
+      title: Strings.TITLE_DPSR_BE_SPONSER,
+      indicatorValue: 0.80,
+    ),
+    Services(
+      title: Strings.TITLE_DPSR_OUR_SPONSERS,
       indicatorValue: 1.0,
     ),
   ];

@@ -31,7 +31,7 @@ class HousingState extends State<Housing> {
           ),
           title: Text(
             services.title,
-            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
+            style: TextStyle(color: Colors.red, fontWeight: FontWeight.bold),
           ),
 
 
@@ -48,7 +48,8 @@ class HousingState extends State<Housing> {
             ],
           ),
           trailing:
-              Icon(Icons.keyboard_arrow_right, color: Colors.white, size: 30.0),
+              Icon(Icons.keyboard_arrow_right, color: Colors.black
+                  , size: 30.0),
           onTap: () {
             Navigator.push(
                 context,
