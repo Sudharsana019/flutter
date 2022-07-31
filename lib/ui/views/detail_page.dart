@@ -19,7 +19,7 @@ class DetailPage extends StatelessWidget {
       child: Center(
         child: OutlinedButton(
          onPressed: () {  },
-         child: Text("touch karo"),
+         child: Text("Button"),
 
 
 

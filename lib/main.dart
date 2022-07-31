@@ -9,7 +9,7 @@ Future<void> main() async {
     title: Strings.APP_NAME,
     debugShowCheckedModeBanner: false,
     theme: ThemeData(
-      primarySwatch: Colors.brown,
+      primarySwatch: Colors.pink,
       //primaryColor: Color.fromRGBO(85, 0, 155, 1.0),
     ),
     home: SplashScreen(),

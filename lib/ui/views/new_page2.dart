@@ -8,7 +8,7 @@ class DetailPage2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: CupertinoColors.activeGreen,
+      backgroundColor: CupertinoColors.activeBlue,
       body: Center(
         child: Column(
           children: <Widget>[

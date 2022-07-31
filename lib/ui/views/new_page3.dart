@@ -8,7 +8,7 @@ class DetailPage3 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: CupertinoColors.activeGreen,
+      backgroundColor: CupertinoColors.activeBlue,
 
       body: Center(
           child:Text("Submission Successful")
